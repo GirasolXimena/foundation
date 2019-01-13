@@ -1,0 +1,9 @@
+<row>
+    <columns small="12" large="12" class="disclosures">
+        {{#each disclosures}}
+        <p>
+            <sup>{{incremented @index }}</sup> {{{this}}}
+        </p>
+        {{/each}}
+    </columns>
+</row>

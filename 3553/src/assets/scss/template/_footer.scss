@@ -1,0 +1,63 @@
+// Footer Styles
+
+footer {
+    background: $wrap-gray;
+}
+
+.disclosures {
+    padding: 0px;
+}
+.disclosures p{
+    color: $legal-gray;
+    line-height: 15px;
+    padding: 0px;
+}
+
+.legal p{
+    color: $legal-gray;
+}
+
+.security-center {
+    padding: 50px 0 0;
+    color: $dark-gray;
+}
+
+
+.security-center__card img {
+    max-width: 60px;
+}
+
+.security-zone p {
+    color: $security-gray;
+}
+
+.disclosures sup {
+    font-size: 9px !important; 
+    line-height: 9px !important; 
+    vertical-align: top !important;
+}
+
+
+footer p {
+    font-size: 10px;
+    color: $medium-gray
+}
+
+
+footer b, span {
+    color: $dark-gray;    
+}
+
+footer a b {
+    text-decoration: underline;
+}
+
+
+ footer hr {
+    border-top: 1px solid $medium-gray;
+    margin: 0 5%;
+
+   
+}
+
+

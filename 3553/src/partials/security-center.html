@@ -1,0 +1,49 @@
+<row>
+    <columns>
+        <spacer size="20"></spacer>
+    </columns>
+</row>
+<row class="security-center collapse">
+
+    <columns small="1" large="1">
+        <img class="float-left" src="../assets/img/securitycenter_key.jpg" alt="">
+    </columns>
+    <columns class="SecurityCenter_Access_Your_Account" small="6" large="4">
+        <p class="float-right">
+            <b>For Your Account:</b><br />
+            <b>&rsaquo;</b>
+            <a alias="Access_Your_Account_SecurityCenter" href="#" target="_blank">Access
+                    your Account</a><br />
+            <b>&rsaquo;</b>
+            <a alias="Pay_Your_Bill_SecurityCenter" href="#" target="_blank">Pay
+                    your bill</a><br />
+            <b>&rsaquo;</b>
+            <a alias="Contact_Us_SecurityCenter" href="#" target="_blank">Contact
+                    Us</a>
+        </p>
+    </columns>
+    <columns valign="top" class="security-center__card float-right" small="4" large="2">
+        <img class="float-right" src="../assets/img/securitycenter_card_mbbvc.jpg" alt="">
+    </columns>
+    <columns small="1" large="0"></columns>
+    <columns small="1" large="1">
+        <img class="float-left" src="../assets/img/securitycenter_lock.jpg" alt="">
+    </columns>
+    <columns class="SecurityCenter_For_Your_Security" small="11" large="5">
+        <p class="float-right text-left">
+            <a href="https://www.citicards.com/cards/wv/copy.do?screenID=1517" target="_blank">
+                <b>For Your Security:</b>
+            </a>
+            <br />
+            Card Member: %%=v(@fullName)=%%
+            <br />
+            For your account ending in: %%=v(@last4)=%%
+            <br />
+            %%[IF NOT EMPTY(@memSince) THEN]%%
+            Member Since: %%=v(@memSince)=%%
+            <br />
+            %%[ENDIF]%%
+        </p>
+    </columns>
+</row>
+<hr />

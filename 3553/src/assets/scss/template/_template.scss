@@ -1,0 +1,84 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+
+hr {
+  border-top: 1px solid $bbltblue;
+  border-bottom: none;
+  margin: 0 5%;
+}
+
+body,
+html, 
+.body {
+  background: $wrap-gray !important;
+}
+
+.container.preheader {
+  background: #E4E8EB;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+.bb-dkblue {
+  background: $bbdkblue;
+}
+
+// Full Width Headers
+.wrapper.preheader {
+  background: #ffffff;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header {
+  background: $bbdkblue;
+}
+
+.header .account {
+  color: $dark-gray;
+  font-size: 10px;
+  padding: calc(1em/1vw) ;
+}
+
+.header__card {
+  padding: 2vh 0 0;
+}
+
+
+.header .container {
+  background: transparent;
+}
+
+.hero {
+  background: #4373B6;
+}
+
+.wrap-gray {
+  background: $wrap-gray;
+}
+
+Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #E4E8EB;
+}
